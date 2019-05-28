@@ -1,0 +1,50 @@
+import java.util.Scanner;
+
+public class Prac5 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int sco;
+		
+		while(true)
+		{
+			System.out.print("점수: ");
+			sco = sc.nextInt();
+			
+			if(!(sco>=0 && sco<=100))
+			{
+				System.out.println("잘못입력");
+			}
+			else
+			{
+				break;
+			}
+		}
+		
+		sco = sco/10;
+		
+		switch(sco)
+		{
+		case 10:
+			System.out.println("A");
+			break;
+		case 9:
+			System.out.println("A");
+			break;
+		case 8:
+			System.out.println("B");
+			break;
+		case 7:
+			System.out.println("C");
+			break;
+		case 6:
+			System.out.println("D");
+			break;
+		default:
+			System.out.println("F");
+			break;
+		}
+		
+	}
+
+}

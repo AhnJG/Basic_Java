@@ -1,0 +1,8 @@
+GUI
+awt : Button
+swing : JButton
+
+버튼, 체크박스 하나하나를 컴포넌트라고 한다.
+창 : 컨테이너
+
+최상위 컨테이너 : JFrame -> JPanel -> 컴포넌트
