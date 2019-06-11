@@ -5,3 +5,6 @@ JMenu, JMenuBa, JMenuItem, JTextField, JFileChooser, FileNameExtensionFilter
 
 ### Java_Prac19 
 Graphics, Thread
+
+### Java_Prac20 
+Graphics, Thread
